@@ -1,0 +1,25 @@
+{
+  "name": "react-socket-myapp",
+  "version": "1.0.0",
+  "description": "javascript, socket-io",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "VS",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
